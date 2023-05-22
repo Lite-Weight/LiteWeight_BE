@@ -30,6 +30,7 @@ public class User extends BaseEntity{
     @Column(length = 45)
     private String birth;
 
+    @Column(length = 45)
     private String gender;
 
     private int height;
